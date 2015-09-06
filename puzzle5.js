@@ -19,15 +19,19 @@ function repeatRight(total) {
   }
 }
 
+function redvsblue() {
+  if (getColor() == "red") {
+    up();
+    repeatRight(2);
+  } else {
+    down();
+    repeatRight(2);
+  }
+}
+  
 repeatRight(2);
 getColor();
-while (getColor() == "red") {
-  up();
-  repeatRight(2);
-}
-while (getColor() == "blue") {
-  down();
-  repeatRight(2);
-}
-
-repeatRight(1);
+redvsblue();
+redvsblue();
+redvsblue();
+right();
