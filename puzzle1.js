@@ -28,4 +28,3 @@ up();
 up();
 right();
 right();
-remainingDots();
