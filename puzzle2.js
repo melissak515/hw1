@@ -29,12 +29,8 @@ function repeatRight(total) {
 
 repeatRight(1);
 repeatDown(6);
-repeatRight(3);
+repeatRight(2);
 up();
 up();
 repeatRight(2);
-down();
-down();
-down();
-
-remainingDots();
+repeatDown(3);
